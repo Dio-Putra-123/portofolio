@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+    header, footer {
+      background-color: #2b2d42;
+      color: white;
+      text-align: center;
+      padding: 1.2em;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a0c4ff;
+    }
+    main {
+      padding: 3em 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+    }
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      margin-top: 1em;
+      font-size: 1.8em;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
+    @media (min-width: 768px) {
+      .profile {
+        flex-direction: row;
+        text-align: left;
+      }
+      .profile-text {
+        margin-left: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="skill.html">Skills</a>
+      <a href="dio.html">Pengalaman</a>
+      <a href="dokumentasi.html">Dokumentasi</a>
+    </nav>
+  </header>
+  <main>
+    <div class="profile">
+      <img src="WhatsApp Image 2025-05-06 at 11.10.50.jpeg" alt="Foto Diri">
+      <div class="profile-text">
+        <h2>Dio putra kusuma</h2>
+        <p>Saya merupakan siswa SMK dengan fokus di jurusan Teknik Komputer dan Jaringan (TKJ). Saya tertarik pada dunia jaringan komputer, administrasi sistem, dan memiliki pengalaman dasar dalam pembuatan website serta troubleshooting perangkat jaringan.
+
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; dioputrakusuma94@gmail.com</p>
+  </footer>
+</body>
+</html>
